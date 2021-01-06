@@ -1,3 +1,1 @@
-# Utilility files
-
-Help connecting to DB, notify developers
+utility functions, shared constants, contracts go here

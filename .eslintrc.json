@@ -15,5 +15,16 @@
     "no-underscore-dangle": ["error", { "allow": ["_id"] }],
     "import/prefer-default-export": "off",
     "no-param-reassign": ["error", { "props": false }]
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "serverless.js",
+        "config/*"
+      ],
+      "rules": {
+        "no-template-curly-in-string": "off"
+      }
+    }
+  ]
 }
